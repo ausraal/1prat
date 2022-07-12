@@ -1,0 +1,79 @@
+
+.grSquare, .greSquare {
+    width: 100px;
+    height: 100px; 
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+position: static;
+}
+.gSquare, .greySquare  {
+    width: 100px;
+    height: 100px; 
+    background-color: grey;
+   display: inline-block;
+   text-align:center;
+position: static;
+}
+.redSquare {
+   width: 100px;
+    height: 100px; 
+    background-color: red;
+    margin-left: 20px;
+   display: inline-block;
+   top: 20px; 
+   left: 20px;
+   text-align:center;
+position: relative;
+}
+
+.fxSquare {
+    width: 100px;
+     height: 100px; 
+     background-color: blue;
+    display: block;
+    top: 0;
+    right: 0;
+    text-align:center;
+ position: fixed;
+}
+.redSquareB {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+}
+.absL {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    font-size: 10px;
+    display: block;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+.absR {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    font-size: 10px;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    position: absolute;
+}
+.absD {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    font-size: 10px;
+    bottom: 10px; 
+    right: 0px;
+    display: block;
+    float: right;
+    position: absolute;
+}
